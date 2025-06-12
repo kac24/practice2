@@ -1,5 +1,4 @@
 ﻿  guild.cpp
-C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\guild.cpp(83,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   team.cpp
   tester_1.cpp
 C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\archer.h(25,15): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
@@ -34,4 +33,4 @@ C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\rog
               see the first reference to 'seneca::Rogue<seneca::InfiniteHealth,seneca::Bersek,seneca::Bersek>::getAttackAmnt' in 'seneca::Rogue<seneca::InfiniteHealth,seneca::Bersek,seneca::Bersek>::attack'
   
   Generating Code...
-  Project1.vcxproj -> C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\x64\Debug\Project1.exe
+C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\team.cpp(1,1): error C1090: PDB API call failed, error code '3': C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\Project1\x64\Debug\vc143.pdb

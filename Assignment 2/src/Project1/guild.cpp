@@ -76,7 +76,7 @@ namespace seneca {
 
 	void Guild::removeMember(const std::string& c) {
 		bool found = false;
-		int position = 0;
+		size_t position = 0; 
 		for (size_t i = 0; i < m_size; i++) {
 			if (m_character[i]->getName() == c) {
 				found = true;
@@ -85,9 +85,9 @@ namespace seneca {
 		}
 
 		if (found) {
-			m_character[position]->setHealthMax(m_character[position]->getHealthMax() - 300); 
+			m_character[position]->setHealthMax(m_character[position]->getHealthMax() - 300);
 
-			for (int i = position; i < m_size - 1; i++) {
+			for (size_t i = position; i < m_size - 1; i++) { 
 				m_character[i] = m_character[i + 1];
 			}
 
@@ -97,7 +97,7 @@ namespace seneca {
 			}
 
 			delete[] m_character;
-			m_character =temp;
+			m_character = temp;
 			m_size--;
 		}
 	}
@@ -120,7 +120,7 @@ namespace seneca {
 			std::cout << "No guild." << std::endl;
 		}
 		else if (m_size > 0) {
-			for (int i = 0; i < m_size; i++) {
+			for (size_t i = 0; i < m_size; i++) { 
 				std::cout << "    " << i + 1 << ": " << *m_character[i] << std::endl;
 			}
 		}
