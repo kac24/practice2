@@ -7,7 +7,7 @@ namespace seneca {
 	class Guild {
 		Character** m_character{};
 		std::string m_name{};
-		int m_size{};
+		size_t m_size{};
 	public:
 		Guild();
 		Guild(const char* name);

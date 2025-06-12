@@ -18,7 +18,7 @@ namespace seneca {
 			m_name = src.m_name;
 			m_size = src.m_size;
 			m_character = new Character * [m_size];
-			for (int i = 0; i < m_size; ++i) {
+			for (size_t i = 0; i < m_size; ++i) {
 				m_character[i] = src.m_character[i]; 
 			}
 		}
@@ -40,7 +40,7 @@ namespace seneca {
 			m_name = src.m_name;
 			m_size = src.m_size;
 			m_character = new Character * [m_size];
-			for (int i = 0; i < m_size; ++i) {
+			for (size_t i = 0; i < m_size; ++i) {
 				m_character[i] = src.m_character[i];
 			}
 
@@ -50,7 +50,7 @@ namespace seneca {
 
 	void Guild::addMember (Character* c) {
 		bool found = false;
-		for (int i = 0; i < m_size; i++) {
+		for (size_t i = 0; i < m_size; i++) {
 			if (m_character[i]->getName() == c->getName()) {
 				found = true;
 			}
@@ -77,7 +77,7 @@ namespace seneca {
 	void Guild::removeMember(const std::string& c) {
 		bool found = false;
 		int position = 0;
-		for (int i = 0; i < m_size; i++) {
+		for (size_t i = 0; i < m_size; i++) {
 			if (m_character[i]->getName() == c) {
 				found = true;
 				position = i;
@@ -92,7 +92,7 @@ namespace seneca {
 			}
 
 			Character** temp = new Character * [m_size - 1];
-			for (int i = 0; i < m_size - 1; ++i) {
+			for (size_t i = 0; i < m_size - 1; ++i) {
 				temp[i] = m_character[i];
 			}
 
@@ -120,7 +120,7 @@ namespace seneca {
 			std::cout << "No guild." << std::endl;
 		}
 		else if (m_size > 0) {
-			for (int i = 0; i < m_size; i++) {
+			for (size_t i = 0; i < m_size; i++) {
 				std::cout << "    " << i + 1 << ": " << *m_character[i] << std::endl;
 			}
 		}
