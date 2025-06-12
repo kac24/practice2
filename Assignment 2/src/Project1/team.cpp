@@ -5,7 +5,7 @@ namespace seneca {
 	Team::Team(const char* name) {
 		m_character = nullptr;
 		m_name = name;
-		
+		m_size = 0;
 	};
 	Team::~Team() {
 		for (int i = 0; i < m_size; i++) {
@@ -118,7 +118,7 @@ namespace seneca {
 		std::cout << "[Team] " << m_name << std::endl;
 		if (m_size == 0) {
 			std::cout << "No team." << std::endl;
-		} else if (m_size > 0) {
+		} else  {
 			for (int i = 0; i < m_size; i++) {
 				std::cout << "    " << i + 1 << ": " << *m_character[i] << std::endl;
 			}
