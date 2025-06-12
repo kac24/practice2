@@ -11,6 +11,7 @@ namespace seneca {
 		T m_health{};
 	public:
 		CharacterTpl(const char* srcName, int srcHealthMax) : Character(srcName) {
+			m_healthMax = srcHealthMax;
 			m_health = srcHealthMax;
 		};
 
