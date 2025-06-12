@@ -1,7 +1,7 @@
 #ifndef SENECA_ROGUE_H
 #define SENECA_ROGUE_H
 #include <iostream>
-#include "charactertpl.h"
+#include "characterTpl.h"
 
 namespace seneca{
 	template<typename T, typename FirstAbility_t, typename SecondAbility_t>

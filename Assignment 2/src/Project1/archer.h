@@ -1,6 +1,6 @@
 #include <iostream>
 #include "weapons.h"
-#include "charactertpl.h"
+#include "characterTpl.h"
 #ifndef SENECA_ARCHER_H
 #define SENECA_ARCHER_H
 

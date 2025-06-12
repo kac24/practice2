@@ -38,7 +38,7 @@
     <ClInclude Include="weapons.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="charactertpl.h">
+    <ClInclude Include="characterTpl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="barbarian.h">
