@@ -14,7 +14,7 @@ namespace seneca{
 	public:
 		Archer(const char* name, int healthMax, int baseAttack, int baseDefense, Weapon_t weapon)
 			: CharacterTpl<seneca::SuperHealth>{ name, healthMax },
-			m_baseAttack{ baseAttack }, m_baseDefense{ baseDefense }, m_weapon{ weapon } {}
+			 m_baseDefense{ baseDefense }, m_baseAttack{ baseAttack }, m_weapon{ weapon } {}
 
 
 		int getAttackAmnt() const override {

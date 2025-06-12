@@ -1,2 +1,37 @@
 ﻿  guild.cpp
-  Project1.vcxproj -> C:\Users\alecc\Seneca\Summer 2025\OOP345\Assignment 2\src\Project1\x64\Debug\Project1.exe
+C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\guild.cpp(83,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  team.cpp
+  tester_1.cpp
+C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\archer.h(25,15): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'tester_1.cpp')
+      C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\archer.h(25,15):
+      the template instantiation context (the oldest one first) is
+          C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\tester_1.cpp(71,31):
+          see reference to class template instantiation 'seneca::Archer<seneca::Bow>' being compiled
+          C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\archer.h(24,7):
+          while compiling class template member function 'int seneca::Archer<seneca::Bow>::getDefenseAmnt(void) const'
+              C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\archer.h(45,101):
+              see the first reference to 'seneca::Archer<seneca::Bow>::getDefenseAmnt' in 'seneca::Archer<seneca::Bow>::takeDamage'
+  
+C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\archer.h(21,15): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'tester_1.cpp')
+      C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\archer.h(21,15):
+      the template instantiation context (the oldest one first) is
+          C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\archer.h(20,7):
+          while compiling class template member function 'int seneca::Archer<seneca::Bow>::getAttackAmnt(void) const'
+              C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\archer.h(36,15):
+              see the first reference to 'seneca::Archer<seneca::Bow>::getAttackAmnt' in 'seneca::Archer<seneca::Bow>::attack'
+  
+C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\rogue.h(18,24): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'tester_1.cpp')
+      C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\rogue.h(18,24):
+      the template instantiation context (the oldest one first) is
+          C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\tester_1.cpp(67,73):
+          see reference to class template instantiation 'seneca::Rogue<seneca::InfiniteHealth,seneca::Bersek,seneca::Bersek>' being compiled
+          C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\rogue.h(16,7):
+          while compiling class template member function 'int seneca::Rogue<seneca::InfiniteHealth,seneca::Bersek,seneca::Bersek>::getAttackAmnt(void) const'
+              C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\rogue.h(34,15):
+              see the first reference to 'seneca::Rogue<seneca::InfiniteHealth,seneca::Bersek,seneca::Bersek>::getAttackAmnt' in 'seneca::Rogue<seneca::InfiniteHealth,seneca::Bersek,seneca::Bersek>::attack'
+  
+  Generating Code...
+  Project1.vcxproj -> C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\x64\Debug\Project1.exe

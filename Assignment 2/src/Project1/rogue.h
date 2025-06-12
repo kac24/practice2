@@ -12,7 +12,7 @@ namespace seneca{
 		SecondAbility_t m_secondAbility{};
 		seneca::Dagger m_weapon{};
 	public:	
-		Rogue(const char* name, int healthMax, int baseAttack, int baseDefense) : CharacterTpl<T>(name, healthMax), m_baseAttack{ baseAttack }, m_baseDefense{ baseDefense } {};
+		Rogue(const char* name, int healthMax, int baseAttack, int baseDefense) : CharacterTpl<T>(name, healthMax), m_baseDefense { baseDefense }, m_baseAttack{ baseAttack } {};
 		int getAttackAmnt() const override {
 			
 			return m_baseAttack + 2 * static_cast<double>(m_weapon);
