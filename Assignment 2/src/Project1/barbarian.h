@@ -1,7 +1,7 @@
 #ifndef SENECA_BARBARIAN_H
 #define SENECA_BARBARIAN_H
 #include <iostream>
-#include "charactertpl.h"
+#include "characterTpl.h"
 #include "abilities.h"
 #include "weapons.h"
 
