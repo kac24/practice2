@@ -33,4 +33,4 @@ C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\rog
               see the first reference to 'seneca::Rogue<seneca::InfiniteHealth,seneca::Bersek,seneca::Bersek>::getAttackAmnt' in 'seneca::Rogue<seneca::InfiniteHealth,seneca::Bersek,seneca::Bersek>::attack'
   
   Generating Code...
-C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\team.cpp(1,1): error C1090: PDB API call failed, error code '3': C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\Project1\x64\Debug\vc143.pdb
+C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\guild.cpp(1,1): error C1090: PDB API call failed, error code '3': C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\Project1\x64\Debug\vc143.pdb

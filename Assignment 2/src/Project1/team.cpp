@@ -44,14 +44,17 @@ namespace seneca {
 
 	Team& Team::operator=(Team&& src) noexcept {
 		if (this != &src) {
-			/*for (int i = 0; i < m_size; ++i) {
+			for (int i = 0; i < m_size; ++i) {
 				delete m_character[i];
-			}*/
+			}
 			delete[] m_character;
-			m_name = src.m_name;
-			m_size = src.m_size;
+
+			m_name = std::move(src.m_name);
 			m_character = src.m_character;
+			m_size = src.m_size;
+
 			src.m_character = nullptr;
+			src.m_size = 0;
 		}
 		return *this;
 	}
