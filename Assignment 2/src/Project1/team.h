@@ -1,6 +1,7 @@
 #ifndef SENECA_TEAM_H
 #define SENECA_TEAM_H
 #include <string>
+#include <iostream>
 #include "character.h"
 
 namespace seneca {
