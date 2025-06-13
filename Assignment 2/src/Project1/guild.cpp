@@ -40,11 +40,11 @@ namespace seneca {
 		delete [] m_character;
 	};
 
-	Guild::Guild(const Guild&& src) noexcept{
+	Guild::Guild(Guild&& src) noexcept{
 		*this = std::move(src);
 	};
 
-	Guild& Guild::operator=(const Guild&& src) noexcept{
+	Guild& Guild::operator=(Guild&& src) noexcept{
 		if (this != &src) {
 			delete[] m_character;
 			m_name = src.m_name;
@@ -53,9 +53,9 @@ namespace seneca {
 			for (size_t i = 0; i < m_size; ++i) {
 				m_character[i] = src.m_character[i];
 			}
-
+			src.m_character = nullptr; 
+			return *this;
 		}
-		return *this;
 	}
 
 	void Guild::addMember (Character* c) {
@@ -125,11 +125,12 @@ namespace seneca {
 	}
 
 	void Guild::showMembers() const {
-		std::cout << "[Guild] " << m_name << std::endl;
-		if (m_size == 0) {
+		
+		if (!m_character) {
 			std::cout << "No guild." << std::endl;
 		}
-		else if (m_size > 0) {
+		else {
+			std::cout << "[Guild] " << m_name << std::endl;
 			for (size_t i = 0; i < m_size; i++) { 
 				std::cout << "    " << i + 1 << ": " << *m_character[i] << std::endl;
 			}
