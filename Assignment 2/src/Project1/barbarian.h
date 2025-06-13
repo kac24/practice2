@@ -54,7 +54,7 @@ namespace seneca {
 
 			m_ability.transformDamageDealt(damage);
 
-			std::cout << "Barbarian deals " << damage << " melee damage!" << std::endl;
+			std::cout << "    Barbarian deals " << damage << " melee damage!" << std::endl;
 			
 			enemy->takeDamage(damage);
 		}
