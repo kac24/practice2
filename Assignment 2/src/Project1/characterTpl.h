@@ -29,7 +29,7 @@ namespace seneca {
 			int remainHealth = static_cast<int>(m_health) - dmg;
 
 			if (remainHealth <= 0) {
-				std::cout << getName() << " has been defeated!" << std::endl;
+				std::cout <<"    " << getName() << " has been defeated!" << std::endl;
 				m_health = 0;
 			}
 			else {
