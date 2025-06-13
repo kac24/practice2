@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\alecc\\Seneca\\Summer 2025\\OOP345\\practice2\\Assignment 2\\src\\Project1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{798211AD-9C35-4427-963E-B52DC159AC77}|Project1.vcxproj|C:\\Users\\alecc\\Seneca\\Summer 2025\\OOP345\\practice2\\Assignment 2\\src\\Project1\\guild.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{798211AD-9C35-4427-963E-B52DC159AC77}|Project1.vcxproj|solutionrelative:guild.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{798211AD-9C35-4427-963E-B52DC159AC77}|Project1.vcxproj|C:\\Users\\alecc\\Seneca\\Summer 2025\\OOP345\\practice2\\Assignment 2\\src\\Project1\\characterTpl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{798211AD-9C35-4427-963E-B52DC159AC77}|Project1.vcxproj|solutionrelative:characterTpl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{798211AD-9C35-4427-963E-B52DC159AC77}|Project1.vcxproj|C:\\Users\\alecc\\Seneca\\Summer 2025\\OOP345\\practice2\\Assignment 2\\src\\Project1\\barbarian.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{798211AD-9C35-4427-963E-B52DC159AC77}|Project1.vcxproj|solutionrelative:barbarian.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{798211AD-9C35-4427-963E-B52DC159AC77}|Project1.vcxproj|C:\\Users\\alecc\\Seneca\\Summer 2025\\OOP345\\practice2\\Assignment 2\\src\\Project1\\guild.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{798211AD-9C35-4427-963E-B52DC159AC77}|Project1.vcxproj|solutionrelative:guild.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{798211AD-9C35-4427-963E-B52DC159AC77}|Project1.vcxproj|C:\\Users\\alecc\\Seneca\\Summer 2025\\OOP345\\practice2\\Assignment 2\\src\\Project1\\guild.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -71,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "barbarian.h",
               "DocumentMoniker": "C:\\Users\\alecc\\Seneca\\Summer 2025\\OOP345\\practice2\\Assignment 2\\src\\Project1\\barbarian.h",
               "RelativeDocumentMoniker": "barbarian.h",
@@ -84,13 +84,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "guild.cpp",
               "DocumentMoniker": "C:\\Users\\alecc\\Seneca\\Summer 2025\\OOP345\\practice2\\Assignment 2\\src\\Project1\\guild.cpp",
               "RelativeDocumentMoniker": "guild.cpp",
               "ToolTip": "C:\\Users\\alecc\\Seneca\\Summer 2025\\OOP345\\practice2\\Assignment 2\\src\\Project1\\guild.cpp",
               "RelativeToolTip": "guild.cpp",
-              "ViewState": "AgIAACUAAAAAAAAAAAAtwDkAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAtwDUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-12T18:36:53.909Z",
               "EditorCaption": ""
@@ -149,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "characterTpl.h",
               "DocumentMoniker": "C:\\Users\\alecc\\Seneca\\Summer 2025\\OOP345\\practice2\\Assignment 2\\src\\Project1\\characterTpl.h",
               "RelativeDocumentMoniker": "characterTpl.h",

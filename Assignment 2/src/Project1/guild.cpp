@@ -47,13 +47,11 @@ namespace seneca {
 	Guild& Guild::operator=(Guild&& src) noexcept{
 		if (this != &src) {
 			delete[] m_character;
-			m_name = src.m_name;
+			m_name = std::move(src.m_name);
+			m_character = src.m_character;
 			m_size = src.m_size;
-			m_character = new Character * [m_size];
-			for (size_t i = 0; i < m_size; ++i) {
-				m_character[i] = src.m_character[i];
-			}
-			src.m_character = nullptr; 
+			src.m_character = nullptr;
+			src.m_size = 0;
 		}
 		return *this;
 	}
