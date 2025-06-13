@@ -1,3 +1,13 @@
+// rogue.h
+// 
+// Name: King Fung Alec Chan
+// Email: kfachan@myseneca.ca
+// Student ID: 101733236
+// Date: 2025-06-13
+//
+// I declare that this submission is the result of my own work and I only copied the code 
+// that my professor provided to complete my assignments. This submitted piece of work 
+// has not been shared with any other student or 3rd party content provider.
 #ifndef SENECA_ROGUE_H
 #define SENECA_ROGUE_H
 #include <iostream>
