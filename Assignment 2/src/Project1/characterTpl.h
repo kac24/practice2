@@ -34,7 +34,7 @@ namespace seneca {
 			}
 			else {
 				m_health = remainHealth;
-				std::cout << getName() << " took " << dmg << " damage, " << m_health << " health remaining." << std::endl;
+				std::cout << "    " << getName() << " took " << dmg << " damage, " << m_health << " health remaining." << std::endl;
 			}
 			
 
