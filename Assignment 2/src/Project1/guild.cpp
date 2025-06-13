@@ -54,8 +54,8 @@ namespace seneca {
 				m_character[i] = src.m_character[i];
 			}
 			src.m_character = nullptr; 
-			return *this;
 		}
+		return *this;
 	}
 
 	void Guild::addMember (Character* c) {

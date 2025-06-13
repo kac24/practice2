@@ -44,5 +44,4 @@ C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\rog
               see the first reference to 'seneca::Rogue<seneca::InfiniteHealth,seneca::Bersek,seneca::Bersek>::getAttackAmnt' in 'seneca::Rogue<seneca::InfiniteHealth,seneca::Bersek,seneca::Bersek>::attack'
   
   Generating Code...
-C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\guild.cpp(59,1): warning C4715: 'seneca::Guild::operator=': not all control paths return a value
   Project1.vcxproj -> C:\Users\alecc\Seneca\Summer 2025\OOP345\practice2\Assignment 2\src\Project1\x64\Debug\Project1.exe
